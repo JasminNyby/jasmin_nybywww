@@ -1,0 +1,28 @@
+body{
+   
+    background-color: azure;
+    padding: 30px;
+    font-size: 14px;
+    color: rgb(82, 94, 107);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    border-bottom: 10, black;
+    color: rgba(255, 0, 0, 0.555);
+    font-size: 16px;
+}
+.link{
+    color: teal;
+    font-size: 13px;
+ 
+}
+a:hover {
+    background-color: yellow;
+    font-style: italic;
+    color: teal;
+}
+.caption{
+    width: 45%;
+    font-size: 5px;
+    text-align: center;
+}

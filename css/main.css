@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(134, 192, 192);
+    text-size-adjust: 10;
+}
+img{
+max-width: 95%;
+}
+.container{
+    background-color: azure;
+}
+.lightbluebg{
+    background-color: #e3f2fd;
+}

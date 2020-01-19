@@ -1,0 +1,37 @@
+.parent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    box-sizing: border-box;
+    border: 20px solid white;
+}
+.header{
+    font-size: 50px;
+    height: 150px;
+    background: rgb(199, 207, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20%;
+    background: rgb(243, 179, 179);
+    padding: 20px;
+    float: left;
+}
+.flexcolumn{
+    font-size: 14px;
+    min-height: 400px;
+    display: flex;
+    background: teal;
+    flex-direction: column;
+    padding: 20px;
+}
+.child4{
+    font-size: 20px;
+    height: 50px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

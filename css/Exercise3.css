@@ -1,28 +1,43 @@
 body{
-   
-    background-color: azure;
+    background-color: rgb(235, 241, 241);
     padding: 30px;
-    font-size: 14px;
     color: rgb(82, 94, 107);
+    font-size: 1.1em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1{
-    border-bottom: 10, black;
-    color: rgba(255, 0, 0, 0.555);
+header{
+    color: red;
     font-size: 16px;
+    border-bottom: solid red;
 }
-.link{
+
+a{
+    font-size: 1em;
     color: teal;
-    font-size: 13px;
- 
+    font-weight: bold;
+    text-decoration: none;
 }
-a:hover {
-    background-color: yellow;
+
+a:hover{
     font-style: italic;
     color: teal;
+    background-color: yellow;
 }
-.caption{
+
+aside{
+    float: right;
     width: 45%;
-    font-size: 5px;
-    text-align: center;
+}
+
+.caption{
+    float: right;
+    font-size: 0.8em;
+  
+}
+
+.container{
+    float: left;
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 50px;
 }

@@ -1,37 +1,46 @@
-.parent{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    box-sizing: border-box;
-    border: 20px solid white;
+.container{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 800px;
+    border: 10px solid orangered;
 }
 .header{
     font-size: 50px;
     height: 150px;
+    width: 100%;
     background: rgb(199, 207, 243);
-    display: flex;
     justify-content: center;
+    align-items: flex-start;
+}
+
+section{
+    margin: auto;
+    flex-flow: row;
     align-items: center;
 }
+
 .box{
     width: 20%;
     background: rgb(243, 179, 179);
     padding: 20px;
     float: left;
+
 }
 .flexcolumn{
     font-size: 14px;
     min-height: 400px;
-    display: flex;
     background: teal;
-    flex-direction: column;
+    width: 60%;
     padding: 20px;
-}
-.child4{
-    font-size: 20px;
-    height: 50px;
-    background: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    float: right;
 
+}
+.footer{
+    font-size: 20px;
+    height: 10%;
+    background: rgb(17, 16, 16);
+    color: white;
+    justify-content: center;
+    align-items: flex-end;
 }

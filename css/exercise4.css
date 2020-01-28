@@ -1,46 +1,90 @@
 .container{
     display: flex;
     flex-flow: column;
-    flex-wrap: wrap;
-    height: 800px;
-    border: 10px solid orangered;
-}
-.header{
-    font-size: 50px;
-    height: 150px;
-    width: 100%;
-    background: rgb(199, 207, 243);
-    justify-content: center;
-    align-items: flex-start;
+    height: 900px;
 }
 
-section{
+.header{
+    max-height: 200px;
+    margin: 0;
+    background: rgb(199, 207, 243);
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+}
+
+header{
+    font-size: 60px;
+    font-weight: bold;
     margin: auto;
-    flex-flow: row;
-    align-items: center;
+}
+
+.equal-height-container{
+    margin: 0 auto;
+    display: flex;
 }
 
 .box{
-    width: 20%;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: teal;
     background: rgb(243, 179, 179);
     padding: 20px;
-    float: left;
-
+    flex: 1;
 }
+
+li{
+    color: teal;
+}
+
+a{
+    color: teal;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+
 .flexcolumn{
-    font-size: 14px;
-    min-height: 400px;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
     background: teal;
-    width: 60%;
     padding: 20px;
-    float: right;
+    flex: 2;
 
 }
 .footer{
-    font-size: 20px;
-    height: 10%;
+    max-height: 70px;
     background: rgb(17, 16, 16);
     color: white;
-    justify-content: center;
+    display: flex;
     align-items: flex-end;
+    flex: 1;
+}
+
+footer{
+    font-size: 40px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 900px){
+    .container{
+        width: 100%;
+    }
+
+    .equal-height-container{
+        margin: 0 auto;
+        
+    }
+
+    header{
+        padding: 10px, 0;
+    }
+    #branding{
+        width: 100%;
+        clear: both;
+    }
+    
 }

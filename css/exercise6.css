@@ -46,7 +46,6 @@ header{
 
 #showcase p{
     font-size: 2em;
-    /* margin-top: 100px; */
     margin-left: 3%;
     width: 100%;
     text-transform: none;
@@ -90,7 +89,6 @@ header{
     margin: auto;
     color: rgb(54, 54, 54);
 }
-
 
 
 .graybg{
@@ -155,13 +153,13 @@ h3{
 /* Footer */
 footer{
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
 }
 
 
 footer h4{
-    flex-direction: row-reverse;
+    flex:1;
 }
 

@@ -1,0 +1,23 @@
+
+
+.navbar-brand{
+    padding: 10px;
+    display: flex;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    order: 1;
+    float: left;
+}
+
+#brand{
+    margin: auto;
+    order: 2;
+    padding: 10px;
+}
+
+.navbar-toggler{
+    order: 3;
+}

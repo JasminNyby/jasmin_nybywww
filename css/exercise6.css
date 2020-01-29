@@ -1,7 +1,7 @@
 
-
+/* Navbar */
 .navbar-brand{
-    padding: 10px;
+    margin: 0;
     display: flex;
 }
 
@@ -18,6 +18,157 @@
     padding: 10px;
 }
 
-.navbar-toggler{
-    order: 3;
+/* Header */
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#showcase{
+    min-height: 500px;
+    background-image: url("../images/umbrella.jpg");
+    background-size: cover;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: black;
+    
+}
+
+#showcase h1{
+    font-size: 4em;
+    margin-top: 180px;
+    margin-left: 3%;
+    width: 40%;
+    align-items: center;
+}
+
+#showcase p{
+    font-size: 2em;
+    /* margin-top: 100px; */
+    margin-left: 3%;
+    width: 100%;
+    text-transform: none;
+    align-items: flex-end;
+
+}
+
+/* Content */
+.container{
+    margin-left: 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: ;
+}
+
+.message{
+    
+}
+
+.message input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 4px;
+    font-size: 1.1em;
+}
+
+.message textarea{
+    padding: 4px;
+    width: 60%;
+    height: 10em;
+    font-size: 1.1em;
+}
+
+.message button{
+    width: 20%;
+    height: 40px;
+    background-color: rgb(255, 208, 0);
+    border: 0;
+    font-size: 1.1em;
+}
+
+#contact{
+    text-transform: uppercase;
+    margin: auto;
+    color: rgb(54, 54, 54);
+}
+
+
+
+.graybg{
+    background-color:#d7dde2;
+}
+
+/* Sidebar */
+h3{
+    margin-top: 10px;
+}
+.pictures{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px auto 0 auto;
+    max-width: 1400px;
+    justify-content: space-between;
+
+}
+
+#box1{
+    background-image: url("../images/kids1.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    height: 160px;
+    width: 250px;
+    
+}
+
+#box2{
+    background-image: url("../images/kids2.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    height: 160px;
+    width: 250px;
+}
+
+#box3{
+    background-image: url("../images/wedding1.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    height: 160px;
+    width: 250px;
+}
+
+#box4{
+    background-image: url("../images/wedding2.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    height: 160px;
+    width: 250px;
+}
+
+#box5{
+    background-image: url("../images/wedding3.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    height: 160px;
+    width: 250px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer h4{
+    flex-direction: row-reverse;
+}
+
+footer a{
+
 }

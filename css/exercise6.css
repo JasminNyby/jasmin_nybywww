@@ -78,8 +78,8 @@ header{
 }
 
 .message button{
-    width: 20%;
-    height: 40px;
+    min-width: 20%;
+    min-height: 40px;
     background-color: rgb(255, 208, 0);
     border: 0;
     font-size: 1.1em;

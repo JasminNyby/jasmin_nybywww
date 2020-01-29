@@ -59,12 +59,8 @@ header{
     margin-left: 3%;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: ;
 }
 
-.message{
-    
-}
 
 .message input{
     width: 60%;
@@ -169,6 +165,3 @@ footer h4{
     flex-direction: row-reverse;
 }
 
-footer a{
-
-}
